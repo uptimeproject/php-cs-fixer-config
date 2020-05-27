@@ -21,7 +21,7 @@ class Config extends BaseConfig
         $this->setRiskyAllowed(true);
     }
 
-    public function getRules(): array
+    public function getRules()
     {
         return array_merge([
             // Base rule sets
