@@ -1,0 +1,20 @@
+{
+    "name": "uptimeproject/php-cs-fixer-config",
+    "description": "Common codestyle configuration for all UptimeProject.io PHP code.",
+    "type": "library",
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.16"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesse Kramer",
+            "email": "jesse@kramerventures.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "UptimeProject\\PhpCsFixerConfig\\": "src"
+        }
+    }
+}
