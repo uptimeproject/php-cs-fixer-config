@@ -5,6 +5,10 @@
 ![Packagist PHP Version Support](https://img.shields.io/packagist/v/uptimeproject/php-cs-fixer-config?style=flat-square)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/uptimeproject/php-cs-fixer-config?style=flat-square)
 
+This is a shared [FriendsOfPHP/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) configuration used primarily in UptimeProject.io projects. But feel free to use it in your projects if you would like. Also, if you want to propose a change, feel free to create a PR 😁
+
+This package can be used on **PHP 5.6, 7.0, 7.1, 7.2, 7.3 and 7.4**.
+
 ## Installation
 
 ```sh
