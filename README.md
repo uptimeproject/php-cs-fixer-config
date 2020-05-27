@@ -29,6 +29,8 @@ $config->getFinder()
 return $config;
 ```
 
+Also, make sure to ignore the `.php_cs.cache` file in your git repository.
+
 ### Adding/overriding rules
 
 It can be the case that you want to change something in the rules. No problem, you can override or add rules as follows:
