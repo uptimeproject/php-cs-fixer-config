@@ -13,12 +13,13 @@ class Config extends BaseConfig
      * Config constructor.
      *
      * @param array $ruleOverrides You can override the standard ruleset.
+     * @param bool|bool $allowRisky
      */
-    public function __construct(array $ruleOverrides = [])
+    public function __construct(array $ruleOverrides = [], bool $allowRisky = true)
     {
         parent::__construct('UptimeProject.io shared coding standard');
         $this->overrides = $ruleOverrides;
-        $this->setRiskyAllowed(true);
+        $this->setRiskyAllowed($allowRisky);
     }
 
     public function getRules()
