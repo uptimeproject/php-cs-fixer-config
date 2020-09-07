@@ -51,6 +51,29 @@ return $config;
 
 Be aware when you do this that risky fixers are allowed by default!
 
+### Example without risky fixers
+
+```php
+<?php
+
+$ruleOverrides = [
+    'no_php4_constructor' => false,
+    'pow_to_exponentiation' => false,
+    'no_unneeded_final_method' => false,
+    'no_unreachable_default_argument_value' => false,
+    'php_unit_strict' => false,
+    'psr4' => false,
+];
+
+$config = new UptimeProject\PhpCsFixerConfig\Config($ruleOverrides, false);
+
+$config->getFinder()
+    ->in(__DIR__ . '/src')
+    ->in(__DIR__ . '/tests');
+
+return $config;
+```
+
 ## License
 
 The MIT License (MIT). Please see [License File](https://github.com/uptimeproject/php-cs-fixer-config/blob/master/LICENSE) for more information.
