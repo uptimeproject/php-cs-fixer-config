@@ -7,7 +7,7 @@
 
 This is a shared [FriendsOfPHP/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) configuration used primarily in UptimeProject.io projects. But feel free to use it in your projects if you would like. Also, if you want to propose a change, feel free to create a PR 😁
 
-This package can be used on PHP 7.0, 7.1, 7.2, 7.3, 7.4 and 8.0.
+This package can be used on PHP 7.1, 7.2, 7.3, 7.4 and 8.0.
 
 ## Installation
 
