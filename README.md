@@ -76,4 +76,4 @@ return $config;
 
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/uptimeproject/php-cs-fixer-config/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/uptimeproject/php-cs-fixer-config/blob/main/LICENSE) for more information.
