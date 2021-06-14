@@ -27,7 +27,7 @@ Note that this version is no longer maintained, and you should upgrade to the la
 
 ## Usage
 
-Create a `.php_cs.dist` configuration file in the root of your project.
+Create a `.php-cs-fixer.php` configuration file in the root of your project.
 
 ```php
 <?php

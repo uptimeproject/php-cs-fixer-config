@@ -22,7 +22,7 @@ class Config extends BaseConfig
         $this->setRiskyAllowed($allowRisky);
     }
 
-    public function getRules()
+    public function getRules(): array
     {
         return array_merge([
             // Base rule sets
@@ -37,17 +37,17 @@ class Config extends BaseConfig
             'concat_space' => ['spacing' => 'one'],
             'declare_equal_normalize' => ['space' => 'single'],
             'function_typehint_space' => true,
-            'hash_to_slash_comment' => true,
+            'single_line_comment_style' => ['comment_types' => ['hash']],
             'list_syntax' => ['syntax' => 'short'],
             'lowercase_cast' => true,
-            'method_separation' => true,
+            'class_attributes_separation' => true,
             'new_with_braces' => true,
             'no_blank_lines_after_class_opening' => true,
             'no_blank_lines_after_phpdoc' => true,
             'no_empty_comment' => true,
             'no_empty_phpdoc' => true,
             'no_empty_statement' => true,
-            'no_extra_consecutive_blank_lines' => true,
+            'no_extra_blank_lines' => true,
             'no_leading_import_slash' => true,
             'no_leading_namespace_whitespace' => true,
             'no_null_property_initialization' => true,
@@ -80,7 +80,7 @@ class Config extends BaseConfig
             'phpdoc_types' => true,
             'phpdoc_var_without_name' => true,
             'pow_to_exponentiation' => true,
-            'psr4' => true,
+            'psr_autoloading' => true,
             'return_type_declaration' => ['space_before' => 'none'],
             'semicolon_after_instruction' => true,
             'short_scalar_cast' => true,
@@ -89,7 +89,7 @@ class Config extends BaseConfig
             'space_after_semicolon' => true,
             'standardize_not_equals' => true,
             'ternary_operator_spaces' => true,
-            'trailing_comma_in_multiline_array' => true,
+            'trailing_comma_in_multiline' => ['elements' => ['arrays']],
             'whitespace_after_comma_in_array' => true,
         ], $this->overrides);
     }
