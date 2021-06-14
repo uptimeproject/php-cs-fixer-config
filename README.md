@@ -7,13 +7,23 @@
 
 This is a shared [FriendsOfPHP/php-cs-fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) configuration used primarily in UptimeProject.io projects. But feel free to use it in your projects if you would like. Also, if you want to propose a change, feel free to create a PR 😁
 
-This package can be used on PHP 5.6, 7.0, 7.1, 7.2, 7.3 and 7.4.
+This package can be used on PHP 7.0, 7.1, 7.2, 7.3, 7.4 and 8.0.
 
 ## Installation
 
 ```sh
 composer require --dev uptimeproject/php-cs-fixer-config
 ```
+
+### PHP-CS-Fixer 2.0
+
+If you are still using v2.x of PHP-CS-Fixer in your project, you should use version <1.2.x of this package.
+
+```sh
+composer require --dev uptimeproject/php-cs-fixer-config:1.2.*
+```
+
+Note that this version is no longer maintained, and you should upgrade to the latest version of PHP-CS-Fixer
 
 ## Usage
 
