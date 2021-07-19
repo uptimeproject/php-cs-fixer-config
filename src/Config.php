@@ -91,6 +91,7 @@ class Config extends BaseConfig
             'ternary_operator_spaces' => true,
             'trailing_comma_in_multiline' => ['elements' => ['arrays']],
             'whitespace_after_comma_in_array' => true,
+            'yoda_style' => false,
         ], $this->overrides);
     }
 }
