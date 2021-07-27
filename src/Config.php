@@ -41,7 +41,7 @@ class Config extends BaseConfig
             'single_line_comment_style' => ['comment_types' => ['hash']],
             'list_syntax' => ['syntax' => 'short'],
             'lowercase_cast' => true,
-            'class_attributes_separation' => true,
+            'class_attributes_separation' => ['elements' => ['method' => 'one', 'property' => 'one']],
             'new_with_braces' => true,
             'no_blank_lines_after_class_opening' => true,
             'no_blank_lines_after_phpdoc' => true,
