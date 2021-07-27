@@ -36,6 +36,7 @@ class Config extends BaseConfig
             'compact_nullable_typehint' => true,
             'concat_space' => ['spacing' => 'one'],
             'declare_equal_normalize' => ['space' => 'single'],
+            'declare_strict_types' => true,
             'function_typehint_space' => true,
             'single_line_comment_style' => ['comment_types' => ['hash']],
             'list_syntax' => ['syntax' => 'short'],
