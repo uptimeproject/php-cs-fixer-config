@@ -87,3 +87,7 @@ return $config;
 ## License
 
 The MIT License (MIT). Please see [License File](https://github.com/uptimeproject/php-cs-fixer-config/blob/main/LICENSE) for more information.
+
+## UptimeProject.io
+
+Check out [uptimeproject.io](https://uptimeproject.io)
