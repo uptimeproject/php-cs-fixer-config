@@ -1,4 +1,4 @@
-<?php
+<?php declare(strict_types = 1);
 
 namespace UptimeProject\PhpCsFixerConfig;
 
@@ -55,7 +55,7 @@ class Config extends BaseConfig
             'no_php4_constructor' => true,
             'no_short_bool_cast' => true,
             'no_spaces_around_offset' => true,
-            'no_trailing_comma_in_list_call' => true,
+            'no_trailing_comma_in_singleline' => true,
             'no_unneeded_control_parentheses' => true,
             'no_unneeded_curly_braces' => true,
             'no_unneeded_final_method' => true,
