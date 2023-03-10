@@ -1,5 +1,5 @@
 {
-    "name": "uptimeproject/php-cs-fixer-config",
+    "name": "sandwave-io/php-cs-fixer-config",
     "description": "Common codestyle configuration for all UptimeProject.io PHP code.",
     "type": "library",
     "require": {
