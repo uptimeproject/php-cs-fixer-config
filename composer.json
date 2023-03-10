@@ -1,6 +1,6 @@
 {
     "name": "sandwave-io/php-cs-fixer-config",
-    "description": "Common codestyle configuration for all UptimeProject.io PHP code.",
+    "description": "Common codestyle configuration for all Sandwave.io PHP code.",
     "type": "library",
     "require": {
         "php": "^7.4 || ^8.0 || ^8.1",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "UptimeProject\\PhpCsFixerConfig\\": "src"
+            "SandwaveIo\\PhpCsFixerConfig\\": "src"
         }
     }
 }

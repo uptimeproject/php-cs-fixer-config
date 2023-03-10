@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace UptimeProject\PhpCsFixerConfig;
+namespace SandwaveIo\PhpCsFixerConfig;
 
 use PhpCsFixer\Config as BaseConfig;
 
@@ -17,7 +17,7 @@ class Config extends BaseConfig
      */
     public function __construct(array $ruleOverrides = [], $allowRisky = true)
     {
-        parent::__construct('UptimeProject.io shared coding standard');
+        parent::__construct('Sandwave.io shared coding standard');
         $this->overrides = $ruleOverrides;
         $this->setRiskyAllowed($allowRisky);
     }
