@@ -8,10 +8,6 @@
     },
     "license": "MIT",
     "authors": [
-        {
-            "name": "Jesse Kramer",
-            "email": "jesse@kramerventures.nl"
-        }
     ],
     "autoload": {
         "psr-4": {
