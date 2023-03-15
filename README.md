@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sandwave-io/php-cs-fixer-config/CI?style=flat-square)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/sandwave-io/php-cs-fixer-config/ci.yml?branch=main)
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/sandwave-io/php-cs-fixer-config?style=flat-square)
 ![Packagist PHP Version Support](https://img.shields.io/packagist/v/sandwave-io/php-cs-fixer-config?style=flat-square)
 ![Packagist Downloads](https://img.shields.io/packagist/dt/sandwave-io/php-cs-fixer-config?style=flat-square)
