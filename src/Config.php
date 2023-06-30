@@ -85,7 +85,7 @@ class Config extends BaseConfig
             'return_type_declaration' => ['space_before' => 'none'],
             'semicolon_after_instruction' => true,
             'short_scalar_cast' => true,
-            'single_blank_line_before_namespace' => true,
+            'blank_lines_before_namespace' => ['min_line_breaks' => 2, 'max_line_breaks' => 2],
             'single_quote' => true,
             'space_after_semicolon' => true,
             'standardize_not_equals' => true,
