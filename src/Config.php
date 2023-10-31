@@ -24,7 +24,7 @@ class Config extends BaseConfig
 
     public function getRules(): array
     {
-        return array_merge([
+        $rules = array_merge([
             // Base rule sets
             '@PSR1' => true,
             '@PSR2' => true,
@@ -94,5 +94,10 @@ class Config extends BaseConfig
             'whitespace_after_comma_in_array' => true,
             'yoda_style' => false,
         ], $this->overrides);
+
+        // Order the rule sets: @PSR1, @PSR2, @PSR12 (instead of @PSR1, @PSR12, @PSR2)
+        uksort($rules, "strnatcmp");
+
+        return $rules;
     }
 }
